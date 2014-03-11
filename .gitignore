@@ -1,6 +1,14 @@
-*.class
+# Temporary Files
+*~
+.*.swp
+.DS_STORE
 
-# Package Files #
-*.jar
-*.war
-*.ear
+bin/
+target/
+.idea/
+*.iml
+
+# Eclipse project files
+.classpath
+.project
+.settings
